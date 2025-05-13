@@ -1,65 +1,151 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mercado Bom de mais</title>
+    <title>Mercado Bom Demais</title>
+    <style>
+        /* Define estilo geral para o corpo da página */
+        body {
+            font-family: Arial, sans-serif; /* Define a fonte da página */
+            background-color: #fafafa; /* Cor de fundo clara */
+            margin: 0;
+            padding: 0;
+            color: #333; /* Cor do texto principal */
+        }
+
+        /* Estiliza o cabeçalho (header) da página */
+        header {
+            background-color: #2c3e50; /* Cor de fundo escura */
+            padding: 1em; /* Espaçamento interno */
+        }
+
+        /* Estilo da lista de navegação */
+        nav ul {
+            list-style: none; /* Remove marcadores da lista */
+            display: flex; /* Coloca os itens lado a lado */
+            justify-content: center; /* Centraliza os itens no menu */
+            gap: 2em; /* Espaço entre os itens */
+            padding: 0;
+            margin: 0;
+        }
+
+        /* Estilo dos links do menu */
+        nav a {
+            color: white; /* Cor dos textos do menu */
+            text-decoration: none; /* Remove o sublinhado */
+            font-weight: bold; /* Negrito nos links */
+        }
+
+        /* Efeito ao passar o mouse sobre o link */
+        nav a:hover {
+            text-decoration: underline; /* Adiciona sublinhado ao passar o mouse */
+        }
+
+        /* Estilo dos títulos */
+        h1, h2, h3 {
+            text-align: center; /* Centraliza os títulos */
+            margin-top: 1em;
+        }
+
+        /* Estilo dos blocos de conteúdo (sections e article) */
+        section, article {
+            max-width: 1000px; /* Largura máxima do conteúdo */
+            margin: 0 auto; /* Centraliza horizontalmente */
+            padding: 1em; /* Espaçamento interno */
+            background-color: white; /* Fundo branco */
+            border-radius: 8px; /* Bordas arredondadas */
+            margin-bottom: 2em; /* Espaço entre as seções */
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Sombra suave ao redor */
+        }
+
+        /* Estilo dos itens de lista (produtos) */
+        li {
+            list-style: none; /* Remove marcadores */
+            margin-bottom: 1em; /* Espaço entre os itens */
+            font-size: 1.1em; /* Aumenta o tamanho da fonte */
+        }
+
+        /* Estilo das imagens dos produtos */
+        img {
+            vertical-align: middle; /* Alinha a imagem com o texto */
+            margin-right: 10px; /* Espaço entre imagem e texto */
+            border-radius: 5px; /* Bordas levemente arredondadas */
+        }
+
+        /* Efeito de rolagem suave ao clicar nos links do menu */
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
 </head>
 <body>
-    <h1>Seleções de produtos</h1>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="#Nosso estabelimento">Sobre Nos</a></li>
-                <li><a href="#Hortifrut">Hortifrut</a></li>
-                <li><a href="#Adega">Adega</a></li>
-                <li><a href="#Padaria">Padaria</a></li>
-                <li><a href="#Açougue">Açougue</a></li>
-            </ul>
-        </nav>
-    </header>
-    <h2 id="#Nosso estabelimento">Sobre Nosso estabelecimento</h2>
-    <article>
-    Fundado em 2005, o Mercado Dmais nasceu com o objetivo de oferecer produtos de qualidade e atendimento próximo à comunidade local. O que começou como um pequeno comércio de bairro, com atendimento familiar e prateleiras modestas, rapidamente conquistou a confiança dos moradores pela honestidade, bom preço e compromisso com o cliente. <br><br>
 
-Ao longo de seus 20 anos de atuação, o mercado passou por diversas transformações: ampliação da estrutura física, modernização dos sistemas de atendimento e pagamento, expansão do mix de produtos e investimentos constantes em capacitação de equipe. Mesmo com o crescimento, o Mercado São Jorge manteve seus valores fundadores — respeito, dedicação e responsabilidade. <br><br>
+<header>
+    <nav>
+        <ul>
+            <li><a href="#sobre">Sobre Nós</a></li>
+            <li><a href="#hortifrut">Hortifrúti</a></li>
+            <li><a href="#adega">Adega</a></li>
+            <li><a href="#padaria">Padaria</a></li>
+            <li><a href="#acougue">Açougue</a></li>
+        </ul>
+    </nav>
+</header>
 
-Hoje, com duas décadas de história, o mercado é referência na região, sendo reconhecido por sua tradição, qualidade e o forte vínculo com a comunidade. São 20 anos de conquistas, superações e gratidão aos clientes que fazem parte dessa trajetória. <br><br>
+<h1>Seleção de Produtos</h1>
+
+<article id="sobre">
+    <h2>Sobre Nosso Estabelecimento</h2>
+    <p>Fundado em 2005, o Mercado Bom Demais nasceu com o objetivo de oferecer produtos de qualidade e atendimento próximo à comunidade local. O que começou como um pequeno comércio de bairro rapidamente conquistou a confiança dos moradores.</p>
+    <p>Ao longo de seus 20 anos de atuação, o mercado passou por diversas transformações: ampliação da estrutura, modernização de sistemas e expansão do mix de produtos. Mesmo com o crescimento, mantivemos nossos valores: respeito, dedicação e responsabilidade.</p>
+    <p>Hoje, somos referência na região, reconhecidos pela tradição, qualidade e forte vínculo com a comunidade.</p>
 </article>
- <section>
-<h2 id="Hortifrut">Hortifrut</h2>
-<h3>Hoje em nosso estoque local temos estes produtos abaixo:</h3>
-<img src="https://obahortifruti.vtexassets.com/arquivos/ids/9848998-190-190?v=638661702453000000&width=190&height=190&aspect=true" alt=""> <li>Tomate carmem / R$2,25 kg </li><br>
-<img src="https://obahortifruti.vtexassets.com/arquivos/ids/4923145-190-190?v=638268609763370000&width=190&height=190&aspect=true" alt=""> <li>Alface americana / R$3,99 Un </li><br>
-<img src="https://obahortifruti.vtexassets.com/arquivos/ids/4250175-190-190?v=638144112224470000&width=190&height=190&aspect=true" alt=""> <li>Chuchu / R$2,99 kg </li><br>
-<img src="https://obahortifruti.vtexassets.com/arquivos/ids/5122516-190-190?v=638304897862270000&width=190&height=190&aspect=true" alt=""> <li>Beterraba / R$5,00 kg</li><br>
-<img src="https://obahortifruti.vtexassets.com/arquivos/ids/9949183-190-190?v=638677218468530000&width=190&height=190&aspect=true" alt=""> <li>Berinjela / 4,99 kg</li>
- </section>
- <section>
-    <h2 id="Adega">Adega</h2>
-    <h3>Para alegrar seu dia beba um Drink suave, veja em nosso estoque oque mais te agrada:</h3>
-    <img src="https://obahortifruti.vtexassets.com/arquivos/ids/10292297-190-190?v=638747239467370000&width=190&height=190&aspect=true" alt=""> <li>Vinho casal branco / R$39,00</li> <br>
-    <img src="https://obahortifruti.vtexassets.com/arquivos/ids/4912662-190-190?v=638266883619000000&width=190&height=190&aspect=true" alt=""> <li>Vinho portugues tinto / R$28,00</li> <br>
-    <img src="https://obahortifruti.vtexassets.com/arquivos/ids/4351487-190-190?v=638159762300770000&width=190&height=190&aspect=true" alt=""> <li>Vinho seco / R$40,00</li> <br>
-    <img src="https://obahortifruti.vtexassets.com/arquivos/ids/5736113-190-190?v=638392788687170000&width=190&height=190&aspect=true" alt=""> <li>Vinho Chileno Doce Aroma/ R$35,00</li> <br>
 
- </section>
+<section id="hortifrut">
+    <h2>Hortifrúti</h2>
+    <h3>Confira os produtos frescos do nosso estoque:</h3>
+    <ul>
+        <li><img src="https://obahortifruti.vtexassets.com/arquivos/ids/9848998-190-190" alt="Tomate">Tomate Carmem - R$2,25/kg</li>
+        <li><img src="https://obahortifruti.vtexassets.com/arquivos/ids/4923145-190-190" alt="Alface">Alface Americana - R$3,99/un</li>
+        <li><img src="https://obahortifruti.vtexassets.com/arquivos/ids/4250175-190-190" alt="Chuchu">Chuchu - R$2,99/kg</li>
+        <li><img src="https://obahortifruti.vtexassets.com/arquivos/ids/5122516-190-190" alt="Beterraba">Beterraba - R$5,00/kg</li>
+        <li><img src="https://obahortifruti.vtexassets.com/arquivos/ids/9949183-190-190" alt="Berinjela">Berinjela - R$4,99/kg</li>
+    </ul>
+</section>
 
-<section>
-    <h2 id="Padaria">Padaria</h2>
-    <H3> Bem vindo a nossa Padaria sintase a vontade para comprar dos melhores paes e baguetes, agora fique a vontade para escolher:</H3>
-    <img src=https://obahortifruti.vtexassets.com/arquivos/ids/10140262-190-190?v=638710699354300000&width=190&height=190&aspect=true" alt=""> <li>Crostata com ervas finas / R$12,99</li> <br>
-    <img src="https://obahortifruti.vtexassets.com/arquivos/ids/8626984-190-190?v=638520006938270000&width=190&height=190&aspect=true" alt=""> <li>Bolo ana maria Chocolate / R$3,99</li> <br>
-    <img src="https://obahortifruti.vtexassets.com/arquivos/ids/6168142-190-190?v=638465395471000000&width=190&height=190&aspect=true" alt=""> <li>Pao croissant / R$15,99</li> <br>
-    <img src="https://obahortifruti.vtexassets.com/arquivos/ids/10674060-190-190?v=638787008368770000&width=190&height=190&aspect=true" alt=""> <li>Welffer belga / R$11.99</li>
+<section id="adega">
+    <h2>Adega</h2>
+    <h3>Escolha seu vinho favorito:</h3>
+    <ul>
+        <li><img src="https://obahortifruti.vtexassets.com/arquivos/ids/10292297-190-190" alt="Vinho branco">Vinho Casal Branco - R$39,00</li>
+        <li><img src="https://obahortifruti.vtexassets.com/arquivos/ids/4912662-190-190" alt="Vinho tinto">Vinho Português Tinto - R$28,00</li>
+        <li><img src="https://obahortifruti.vtexassets.com/arquivos/ids/4351487-190-190" alt="Vinho seco">Vinho Seco - R$40,00</li>
+        <li><img src="https://obahortifruti.vtexassets.com/arquivos/ids/5736113-190-190" alt="Vinho doce">Vinho Chileno Doce Aroma - R$35,00</li>
+    </ul>
 </section>
-<section>
-    <h2 id="Açougue">Açougue</h2>
-    <h3>Ola seja benvindo ao nosso Açougue, aqui temos os melhores cortes de carne, agora fique ao seu criterio de escolha:</h3>
-    <img src="https://obahortifruti.vtexassets.com/arquivos/ids/6092687-190-190?v=638444659472470000&width=190&height=190&aspect=true" alt=""> <li>Lagarto Bolvino / R$49.00 kg</li> <br>
-    <img src="https://obahortifruti.vtexassets.com/arquivos/ids/5430857-190-190?v=638371978900370000&width=190&height=190&aspect=true" alt=""> <li>Peito de frango com osso / R$35,00</li> <br>
-    <img src="https://obahortifruti.vtexassets.com/arquivos/ids/5506875-190-190?v=638377483889570000&width=190&height=190&aspect=true" alt=""> <li>Costela de cordeiro / R$59,00</li> <br>
-    <img src="https://obahortifruti.vtexassets.com/arquivos/ids/9649093-190-190?v=638636647432270000&width=190&height=190&aspect=true" alt=""> <li>Picanha Bolvina / R$120,00 Un</li>
+
+<section id="padaria">
+    <h2>Padaria</h2>
+    <h3>Sabores fresquinhos esperando por você:</h3>
+    <ul>
+        <li><img src="https://obahortifruti.vtexassets.com/arquivos/ids/10140262-190-190" alt="Crostata">Crostata com Ervas Finas - R$12,99</li>
+        <li><img src="https://obahortifruti.vtexassets.com/arquivos/ids/8626984-190-190" alt="Bolo">Bolo Ana Maria Chocolate - R$3,99</li>
+        <li><img src="https://obahortifruti.vtexassets.com/arquivos/ids/6168142-190-190" alt="Croissant">Pão Croissant - R$15,99</li>
+        <li><img src="https://obahortifruti.vtexassets.com/arquivos/ids/10674060-190-190" alt="Waffle">Waffle Belga - R$11,99</li>
+    </ul>
 </section>
+
+<section id="acougue">
+    <h2>Açougue</h2>
+    <h3>Escolha cortes nobres e saborosos:</h3>
+    <ul>
+        <li><img src="https://obahortifruti.vtexassets.com/arquivos/ids/6092687-190-190" alt="Lagarto">Lagarto Bovino - R$49,00/kg</li>
+        <li><img src="https://obahortifruti.vtexassets.com/arquivos/ids/5430857-190-190" alt="Frango">Peito de Frango com Osso - R$35,00/kg</li>
+        <li><img src="https://obahortifruti.vtexassets.com/arquivos/ids/5506875-190-190" alt="Costela">Costela de Cordeiro - R$59,00/kg</li>
+        <li><img src="https://obahortifruti.vtexassets.com/arquivos/ids/9649093-190-190" alt="Picanha">Picanha Bovino - R$120,00/un</li>
+    </ul>
+</section>
+
 </body>
 </html>
