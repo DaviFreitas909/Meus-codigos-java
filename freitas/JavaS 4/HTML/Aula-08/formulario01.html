@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario</title>
+</head>
+
+<body>
+
+    <h1>formulario - visita TOTVS
+    </h1>
+    
+    <form action="    " method="post">
+        <!--label = rotulo/ dá o titulo ou nome  a algo
+    for = "nome /id do elemnto que esta recebendo esse rotulo"-->
+
+
+
+        <!--nome completo
+        
+CPF
+RG
+endereço
+data de nascimento
+curso-->
+        <label for="">nome completo:</label>
+        <input type="text" id="nomecompleto" name="nomeCompleto" required>
+        <br>
+
+        <label for="">CPF:</label>
+        <input type="text" id="cpf" name="nomeCompleto" required>
+
+        <br>
+
+        <label for="">RG:</label>
+        <input type="text" id="rg" name="nomeCompleto"required>
+        <br>
+
+        <label for="">Endereço:</label>
+        <input type="text" id="endereço" name="nomeCompleto"required>
+
+        <br>
+
+        <label for="">Data de nascimento:</label>
+        <input type="text" id="data de nascimento" name="nomeCompleto" required>
+
+        <br>
+
+        
+        <!--colocar o mesmo nome em todos os radios que pertence o mesmo grupo,assim o HTML entende que só pode selecionar uma resposta para aquela pergunta-->
+        <p> De qual estado vc virá?</p>
+
+
+        <label for="">São paulo</label>
+        <input type="radio" name="estado" id="sp">
+
+        <br>
+        <label for="">Minas gerais</label>
+        <input type="radio" name="estado" id="mg">
+
+        <br>
+        <label for="">Rio de Janeiro</label>
+        <input type="radio" name="estado" id="rj">
+
+        <br>
+        <p>Metodo de transporte</p>
+        <label for="">onibus</label>
+        <input type="checkbox" name="onibus" id="bumba">
+        <br>
+        <label for="">metro</label>
+        <input type="checkbox" name="metro" id="metro">
+        <br>
+        <label for="">trem</label>
+        <input type="checkbox" name="trem" id="trem">
+        <br>
+        <label for="">jegue</label>
+        <input type="checkbox" name="jegue" id="jegue">
+        <br>
+        <label for="">balsa</label>
+        <input type="checkbox" name="balsa" id="balsa">
+
+        <br>
+
+        <input type="submit" value="Enviar">
+
+
+        <br>
+    </form>
+</body>
+
+</html>
