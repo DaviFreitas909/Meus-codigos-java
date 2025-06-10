@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Reset */
+}
+.quadrado {
+    width: 200px;
+    height: 100px;
+    padding: 100px;
+    margin: 20px;
+}
+.quadrado-azul{
+    background-color: blue;
+}
+.quadrado-vermelho {
+    background-color: red;
+}
+.quadrado-azul{
+    background-color: blue;
+}
+.quadrado-vermelho {
+    background-color: red;
+}
+#quadrado3 {
+    border: 5px dotted darkblue;
+    margin: 270px 200px ;
+    
+}
