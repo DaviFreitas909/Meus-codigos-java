@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pastelaria e cia</title>
+</head>
+
+<body>
+    <form action="">
+        <h2>Pastelaria & cia</h2>
+        <h3>Cardapio</h3>
+        <p>Escolha seu sabor de pastel</p>
+        <select name="Opçoes de Pastel" id="">
+            <option value="Escolha-seu-sabor-de-pastel">Escolha seu sabor de Pastel</option>
+            <option value="pizza">Pizza</option>
+            <option value="queijo">Queijo</option>
+            <option value="carne">Carne</option>
+            <option value="nutella">Nutella</option>
+            <option value="frango-catupiry">Frango-Catupiry</option>
+            <option value="carne-seca-e-queijo">Carne-Seca-e-Queijo</option>
+            <option value="escarola">Escarola</option>
+        </select>
+        <datalist id="seuMunicipiu">
+            <option value="Jaguara">Bairro famoso de São Paulo, próximo à região do Jaguará</option>
+            <option value="São paulo">Capital do estado, centro financeiro, cultural e econômico do Brasil</option>
+            <option value="Maua">Importante polo industrial e logístico do ABC Paulista</option>
+            <option value="Santo andre"> Cidade com forte presença industrial, parte do ABC Paulista</option>
+            <option value="Santos"> Possui o maior porto da América Latina, destino turístico litorâneo </option>
+            <option value="Campinas">Sede da UNICAMP e referência em tecnologia e educação</option>
+            <option value="Sorocaba">Conhecida pela qualidade de vida e setor industrial no interior</option>
+            <option value="Ribeirao preto">Destaque no agronegócio, conhecida como a Califórnia Brasileira</option>
+            <option value="Guaruja">Destino turístico de praias no litoral paulista</option>
+            <option value="Sao jose dos campos">Polo tecnológico e aeroespacial, sede da Embraer e do INPE</option>
+        </datalist>
+        <br>
+        <label for="seuMunicipiu">Digite sua regiao dentro do estado de SP:</label>
+        <input type="text" autocomplete="on" list="seuMunicipiu" id="seuMunicipiu" name="municipiu">
+
+        <input type="submit">
+    </form>
+</body>
+
+</html>

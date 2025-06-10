@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mercado Bom Demais</title>
+    <style>
+        /* Define estilo geral para o corpo da página */
+        body {
+            font-family: Arial, sans-serif; /* Define a fonte da página */
+            background-color: #fafafa; /* Cor de fundo clara */
+            margin: 0;
+            padding: 0;
+            color: #333; /* Cor do texto principal */
+        }
+
+        /* Estiliza o cabeçalho (header) da página */
+        header {
+            background-color: #2c3e50; /* Cor de fundo escura */
+            padding: 1em; /* Espaçamento interno */
+        }
+
+        /* Estilo da lista de navegação */
+        nav ul {
+            list-style: none; /* Remove marcadores da lista */
+            display: flex; /* Coloca os itens lado a lado */
+            justify-content: center; /* Centraliza os itens no menu */
+            gap: 2em; /* Espaço entre os itens */
+            padding: 0;
+            margin: 0;
+        }
+
+        /* Estilo dos links do menu */
+        nav a {
+            color: white; /* Cor dos textos do menu */
+            text-decoration: none; /* Remove o sublinhado */
+            font-weight: bold; /* Negrito nos links */
+        }
+
+        /* Efeito ao passar o mouse sobre o link */
+        nav a:hover {
+            text-decoration: underline; /* Adiciona sublinhado ao passar o mouse */
+        }
+
+        /* Estilo dos títulos */
+        h1, h2, h3 {
+            text-align: center; /* Centraliza os títulos */
+            margin-top: 1em;
+        }
+
+        /* Estilo dos blocos de conteúdo (sections e article) */
+        section, article {
+            max-width: 1000px; /* Largura máxima do conteúdo */
+            margin: 0 auto; /* Centraliza horizontalmente */
+            padding: 1em; /* Espaçamento interno */
+            background-color: white; /* Fundo branco */
+            border-radius: 8px; /* Bordas arredondadas */
+            margin-bottom: 2em; /* Espaço entre as seções */
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Sombra suave ao redor */
+        }
+
+        /* Estilo dos itens de lista (produtos) */
+        li {
+            list-style: none; /* Remove marcadores */
+            margin-bottom: 1em; /* Espaço entre os itens */
+            font-size: 1.1em; /* Aumenta o tamanho da fonte */
+        }
+
+        /* Estilo das imagens dos produtos */
+        img {
+            vertical-align: middle; /* Alinha a imagem com o texto */
+            margin-right: 10px; /* Espaço entre imagem e texto */
+            border-radius: 5px; /* Bordas levemente arredondadas */
+        }
+
+        /* Efeito de rolagem suave ao clicar nos links do menu */
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <nav>
+        <ul>
+            <li><a href="#sobre">Sobre Nós</a></li>
+            <li><a href="#hortifrut">Hortifrúti</a></li>
+            <li><a href="#adega">Adega</a></li>
+            <li><a href="#padaria">Padaria</a></li>
+            <li><a href="#acougue">Açougue</a></li>
+        </ul>
+    </nav>
+</header>
+
+<h1>Seleção de Produtos</h1>
+
+<article id="sobre">
+    <h2>Sobre Nosso Estabelecimento</h2>
+    <p>Fundado em 2005, o Mercado Bom Demais nasceu com o objetivo de oferecer produtos de qualidade e atendimento próximo à comunidade local. O que começou como um pequeno comércio de bairro rapidamente conquistou a confiança dos moradores.</p>
+    <p>Ao longo de seus 20 anos de atuação, o mercado passou por diversas transformações: ampliação da estrutura, modernização de sistemas e expansão do mix de produtos. Mesmo com o crescimento, mantivemos nossos valores: respeito, dedicação e responsabilidade.</p>
+    <p>Hoje, somos referência na região, reconhecidos pela tradição, qualidade e forte vínculo com a comunidade.</p>
+</article>
+
+<section id="hortifrut">
+    <h2>Hortifrúti</h2>
+    <h3>Confira os produtos frescos do nosso estoque:</h3>
+    <ul>
+        <li><img src="https://obahortifruti.vtexassets.com/arquivos/ids/9848998-190-190" alt="Tomate">Tomate Carmem - R$2,25/kg</li>
+        <li><img src="https://obahortifruti.vtexassets.com/arquivos/ids/4923145-190-190" alt="Alface">Alface Americana - R$3,99/un</li>
+        <li><img src="https://obahortifruti.vtexassets.com/arquivos/ids/4250175-190-190" alt="Chuchu">Chuchu - R$2,99/kg</li>
+        <li><img src="https://obahortifruti.vtexassets.com/arquivos/ids/5122516-190-190" alt="Beterraba">Beterraba - R$5,00/kg</li>
+        <li><img src="https://obahortifruti.vtexassets.com/arquivos/ids/9949183-190-190" alt="Berinjela">Berinjela - R$4,99/kg</li>
+    </ul>
+</section>
+
+<section id="adega">
+    <h2>Adega</h2>
+    <h3>Escolha seu vinho favorito:</h3>
+    <ul>
+        <li><img src="https://obahortifruti.vtexassets.com/arquivos/ids/10292297-190-190" alt="Vinho branco">Vinho Casal Branco - R$39,00</li>
+        <li><img src="https://obahortifruti.vtexassets.com/arquivos/ids/4912662-190-190" alt="Vinho tinto">Vinho Português Tinto - R$28,00</li>
+        <li><img src="https://obahortifruti.vtexassets.com/arquivos/ids/4351487-190-190" alt="Vinho seco">Vinho Seco - R$40,00</li>
+        <li><img src="https://obahortifruti.vtexassets.com/arquivos/ids/5736113-190-190" alt="Vinho doce">Vinho Chileno Doce Aroma - R$35,00</li>
+    </ul>
+</section>
+
+<section id="padaria">
+    <h2>Padaria</h2>
+    <h3>Sabores fresquinhos esperando por você:</h3>
+    <ul>
+        <li><img src="https://obahortifruti.vtexassets.com/arquivos/ids/10140262-190-190" alt="Crostata">Crostata com Ervas Finas - R$12,99</li>
+        <li><img src="https://obahortifruti.vtexassets.com/arquivos/ids/8626984-190-190" alt="Bolo">Bolo Ana Maria Chocolate - R$3,99</li>
+        <li><img src="https://obahortifruti.vtexassets.com/arquivos/ids/6168142-190-190" alt="Croissant">Pão Croissant - R$15,99</li>
+        <li><img src="https://obahortifruti.vtexassets.com/arquivos/ids/10674060-190-190" alt="Waffle">Waffle Belga - R$11,99</li>
+    </ul>
+</section>
+
+<section id="acougue">
+    <h2>Açougue</h2>
+    <h3>Escolha cortes nobres e saborosos:</h3>
+    <ul>
+        <li><img src="https://obahortifruti.vtexassets.com/arquivos/ids/6092687-190-190" alt="Lagarto">Lagarto Bovino - R$49,00/kg</li>
+        <li><img src="https://obahortifruti.vtexassets.com/arquivos/ids/5430857-190-190" alt="Frango">Peito de Frango com Osso - R$35,00/kg</li>
+        <li><img src="https://obahortifruti.vtexassets.com/arquivos/ids/5506875-190-190" alt="Costela">Costela de Cordeiro - R$59,00/kg</li>
+        <li><img src="https://obahortifruti.vtexassets.com/arquivos/ids/9649093-190-190" alt="Picanha">Picanha Bovino - R$120,00/un</li>
+    </ul>
+</section>
+
+</body>
+</html>
